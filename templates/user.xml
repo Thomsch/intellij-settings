@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="testpanel" value="public static void main(java.lang.String[] args) {&#10;    javax.swing.JFrame frame = new javax.swing.JFrame();&#10;    javax.swing.JPanel pane = new javax.swing.JPanel(new java.awt.BorderLayout());&#10;&#10;    frame.setLocationRelativeTo(null);&#10;    frame.setContentPane(pane);&#10;    frame.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);&#10;&#10;    pane.add(new $class$(), java.awt.BorderLayout.CENTER);&#10;&#10;    frame.pack();&#10;    frame.setVisible(true);&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,15 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="com.sun" />
+    <EXCLUDED_PACKAGE NAME="java.awt.Canvas" />
+    <EXCLUDED_PACKAGE NAME="junit.framework" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="Digger" />
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseConstructorGenericParameters" value="false" />
+    <option name="collapseLambdas" value="false" />
+    <option name="collapseSuppressWarnings" value="false" />
+  </component>
+</application>

@@ -1,0 +1,14 @@
+<templateSet group="custom">
+  <template name="ni" value="throw new RuntimeException(&quot;Not yet implemented!&quot;);&#10;" description="Throws a not implemented exception." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="link" value="{@link $SELECTION$}$END$" description="Add link" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
