@@ -1,5 +1,5 @@
 <profile version="1.0">
-  <option name="myName" value="Digger" />
+  <option name="myName" value="Thomsch" />
   <inspection_tool class="AndroidLintGoogleAppIndexingWarning" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AssignmentToMethodParameter" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreTransformationOfOriginalParameter" value="false" />
@@ -13,9 +13,19 @@
     <option name="ignoreSetterCallsOnOtherObjects" value="false" />
     <option name="onlyReportPrivateSetter" value="false" />
   </inspection_tool>
+  <inspection_tool class="CallToStringConcatCanBeReplacedByOperator" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CastConflictsWithInstanceof" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ClassReferencesSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ClassWithMultipleLoggers" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="loggerNamesString" value="java.util.logging.Logger,org.slf4j.Logger,org.apache.commons.logging.Log,org.apache.log4j.Logger" />
+  </inspection_tool>
+  <inspection_tool class="CloneInNonCloneableClass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CloneReturnsClassType" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CloneableImplementsClone" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_ignoreCloneableDueToInheritance" value="false" />
+  </inspection_tool>
   <inspection_tool class="ConditionalExpressionWithIdenticalBranches" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConfusingOctalEscape" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="true" />
     <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
@@ -28,6 +38,7 @@
     <option name="REPORT_INDEXED_LOOP" value="false" />
     <option name="ignoreUntypedCollections" value="false" />
   </inspection_tool>
+  <inspection_tool class="HtmlTagCanBeJavadocTag" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InstanceofChain" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreInstanceofOnLibraryClasses" value="false" />
   </inspection_tool>
@@ -50,6 +61,7 @@
   </inspection_tool>
   <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonPublicClone" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PointlessNullCheck" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RedundantImplements" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreSerializable" value="false" />
@@ -57,12 +69,15 @@
   </inspection_tool>
   <inspection_tool class="SetReplaceableByEnumSet" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringEqualsEmptyString" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadDumpStack" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryCallToStringValueOf" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryFinalOnLocalVariableOrParameter" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="reportLocalVariables" value="false" />
   </inspection_tool>
   <inspection_tool class="UnnecessaryToStringCall" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UseOfObsoleteDateTimeApi" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignorableAnnotations">
       <value />
