@@ -3,6 +3,11 @@
     <option name="XML_ATTRIBUTE_WRAP" value="4" />
     <option name="XML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
   </XML>
+  <codeStyleSettings language="Scala">
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+  </codeStyleSettings>
   <codeStyleSettings language="XML">
     <option name="WRAP_ON_TYPING" value="0" />
     <indentOptions>
