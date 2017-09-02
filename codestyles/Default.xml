@@ -1,1 +1,12 @@
-<code_scheme name="Default" />
+<code_scheme name="Default">
+  <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="4" />
+    <option name="XML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
+  </XML>
+  <codeStyleSettings language="XML">
+    <option name="WRAP_ON_TYPING" value="0" />
+    <indentOptions>
+      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
