@@ -6,7 +6,7 @@
     <EXCLUDED_PACKAGE NAME="java.awt.Canvas" />
     <EXCLUDED_PACKAGE NAME="junit.framework" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="Thomsch" />
+  <component name="DaemonCodeAnalyzerSettings" profile="Digger" />
   <component name="JavaCodeFoldingSettings">
     <option name="collapseConstructorGenericParameters" value="false" />
     <option name="collapseLambdas" value="false" />
